@@ -74,8 +74,9 @@ h1, h2, h3 { font-family: 'Boogaloo', cursive; font-weight: 900; }
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .nav-logo {
@@ -231,7 +232,7 @@ h1, h2, h3 { font-family: 'Boogaloo', cursive; font-weight: 900; }
     align-items: center;
 }
 
-.hero-text { color: var(--white); }
+.hero-text { color: var(--white); text-align: center; }
 
 /* Multi-color logo-matched title */
 .hero-title {
@@ -285,7 +286,7 @@ h1, h2, h3 { font-family: 'Boogaloo', cursive; font-weight: 900; }
 .hero-subtitle {
     font-size: 19px;
     color: rgba(255,255,255,0.9);
-    margin-bottom: 36px;
+    margin: 0 auto 36px;
     max-width: 480px;
     font-weight: 600;
     line-height: 1.6;
@@ -296,6 +297,7 @@ h1, h2, h3 { font-family: 'Boogaloo', cursive; font-weight: 900; }
     gap: 18px;
     margin-bottom: 36px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {
@@ -425,6 +427,7 @@ h1, h2, h3 { font-family: 'Boogaloo', cursive; font-weight: 900; }
     height: auto;
     max-height: 420px;
     filter: drop-shadow(0 6px 20px rgba(0,0,0,0.12));
+    clip-path: inset(0 0 14% 0);
 }
 
 @keyframes float-cats {
